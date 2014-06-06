@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #E4E4E4;
+
+}
+/*------------------NEW CSS ADDED ---------------------*/
+div, td, table, tr, textarea, select, button,{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}	
+select, input{
+	background-color:#F1F1F1;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	outline: none;
+	padding: 5px;
+	margin-bottom:10px;
+}
+.button{
+	background-color: #D4D4D4;
+	border: 1px solid  #B0B0B0;
+	border-radius: 5px;
+	outline: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	color: #4D4D4D;
+	float:left;
+	margin:3px;
+}
+.button:hover {
+	background: #949494;	
+	color: #FFFFFF;
+	border: 1px solid  #EDEDED;
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 0 5px  rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.textfield{
+	background-color:#F1F1F1;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, .5);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	min-height: 100px;
+	width: calc(100% - 110px);
+	padding: 10px;
+	float:left;
+}
+
+
+/*------------------NEW CSS ADDED END ---------------------*/
+td{
+	font-size:13px;
+}
+.edubar{
+	border-bottom: 1px solid #0099CC;
+	background-color:#A8EAFD;
+	padding: 5px;
+	margin-bottom:10px;
+
+}
+
+.logo{
+	background-image:url(bugster.jpg);
+	width: 320px;
+	height: 70px;
+	margin:10px 0px;
+	text-align:right;
+	float:left;
+	}
+	
+.notDone{
+	background-color: #FFA8A8;
+	padding:5px;
+	text-align:center
+
+}
+
+.Done{
+	background-color: #BAFFB0;
+	padding:5px;
+	text-align:center
+
+}
+.check{
+	width:16px;
+	height:16px;
+	cursor: pointer;
+	border:0px;
+}
+
+.delete{
+	width:16px;
+	height:16px;
+	cursor: pointer;
+	border:0px;
+}
+.tab{
+	border-radius: 5px 5px 0px 0px;
+	background-color:   #F3F3F3;
+	margin: 0px 5px;
+	padding: 7px 20px;
+	border: 1px solid #B1B1B1;
+	height: 12px ;
+	cursor:pointer;
+	text-align:center;
+}
+.tab_selected{
+	background-color:#FFFFFF;
+	cursor:pointer;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+
+.tab:hover{
+	background-color:#FFFFFF;
+	cursor:pointer;
+	border-bottom: 1px solid #FFFFFF;
+	
+}
