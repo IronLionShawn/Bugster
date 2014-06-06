@@ -15,7 +15,7 @@ Features:
 - No user/authentication functions
 - A bug can be marked as important, making it change appearance in the list
 
-As there is authentication function it is highly recommended to use bugster ONLY internally where those who have access can be trusted.
+As there is no authentication function it is highly recommended to use bugster ONLY internally where those who have access can be trusted.
 
 Installation:
 ============
