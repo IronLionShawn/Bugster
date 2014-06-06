@@ -1,5 +1,5 @@
 <?php
-$debug=true;
+$debug=false;
 if(file_exists("setup") && !$debug)
 {
 	die("Remove setup folder before you start using bugster.");
