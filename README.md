@@ -29,9 +29,6 @@ Screenshot:
 ===========
 ![alt text](https://raw.githubusercontent.com/DukeW/Bugster/master/screenshot.png "Screenshot")
 
-Note:
-=====
-Currently the only way to delete a list is manualy from SQL. Will add this feature at a later date.
 
 License
 ----
