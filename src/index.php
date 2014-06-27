@@ -1,5 +1,5 @@
 <?php
-$debug=false;
+$debug=true;
 if(file_exists("setup") && !$debug)
 {
 	die("Remove setup folder before you start using bugster.");
@@ -24,7 +24,7 @@ include "config.php";
 
 	<form name="addForm" id="addForm">
     	<div class="logo" >
-			<div>v0.1</div>
+			<div>v0.1.1</div>
             <input type="button" onClick="saveName();" value="save" class="button" style="margin-top:70px; float:right">	
             <input type="text" name="nume" id="nume" value="" style="margin-top:70px; width:100px; float:right" placeholder="Bug found by">
 		</div>
@@ -39,6 +39,7 @@ include "config.php";
 			<input type="text" id="src" name="src" placeholder="Search..."  onKeyUp="searchTable();" style="width:100%"><br>
 			<input type="text" id="newListText" placeholder="Add list"  style=" width: calc(100% - 110px);">
 			<input type="button" class="button" onClick="addList();" value="Add list" style="float:right">
+			<div><a href="admin.php">List admin</a></div>
         </div>
 	</form>
 	
