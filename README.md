@@ -29,6 +29,15 @@ Screenshot:
 ===========
 ![alt text](https://raw.githubusercontent.com/DukeW/Bugster/master/screenshot.png "Screenshot")
 
+Coming soon:
+============
+
+List admin improovments:
+
+- Restore deleted lists
+- Show list creatin date in list admin
+- Rename existing lists
+
 
 License
 ----
