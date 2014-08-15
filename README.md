@@ -34,8 +34,7 @@ Coming soon:
 
 List admin improovments:
 
-- Restore deleted lists
-- Show list creatin date in list admin
+- Show list meta data in list admin
 - Rename existing lists
 
 

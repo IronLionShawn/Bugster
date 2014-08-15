@@ -31,6 +31,8 @@
 				mysql_query($sql);
 				$sql="CREATE TABLE IF NOT EXISTS `lists` (  `ID` int(11) NOT NULL AUTO_INCREMENT,  `Name` varchar(255) NOT NULL,  PRIMARY KEY (`ID`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;";
 				mysql_query($sql);
+				$sql="CREATE TABLE IF NOT EXISTS `old_lists` (  `ID` int(11) NOT NULL AUTO_INCREMENT,  `Name` varchar(255) NOT NULL,  PRIMARY KEY (`ID`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;";
+				mysql_query($sql);
 				echo "Created tables.<br>";
 				$configString="<?php
 				".'$dbh'."=mysql_connect ('$host', '$user', '$password') or die ('I cannot connect to the database because: ' . mysql_error());
