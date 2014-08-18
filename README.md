@@ -36,7 +36,7 @@ List admin improovments:
 
 - Show list meta data in list admin
 - Rename existing lists
-- Cleaning up database(delete info about deleted lists, delete bugs not associated with a list)*
+- Cleaning up database from UI(delete info about deleted lists, delete bugs not associated with a list)*
 
 
 *Will need some sort of security
