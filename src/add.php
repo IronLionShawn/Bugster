@@ -10,6 +10,6 @@
 		$importance = 0;
 	}
 	$date = date("d")."-".date("m")."-".date("Y");
-	$sql="INSERT INTO `bugster`.`bug` (`ID`, `text`, `postedBy`, `status`, `List`,`importance`,`data`) VALUES (NULL, '$desc', '$name', '0', '$list', '$importance', '$date');";
+	$sql="INSERT INTO `bug` (`ID`, `text`, `postedBy`, `status`, `List`,`importance`,`data`) VALUES (NULL, '$desc', '$name', '0', '$list', '$importance', '$date');";
 	mysql_query($sql);
 ?>

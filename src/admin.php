@@ -4,18 +4,18 @@ if(isset($_GET["del"]))
 {
 	$id=$_GET["del"];
 	$listName=$_GET["name"];
-	$query="INSERT INTO `bugster`.`old_lists` (`ID`, `Name`) VALUES ('$id', '$listName');";
+	$query="INSERT INTO `old_lists` (`ID`, `Name`) VALUES ('$id', '$listName');";
 	mysql_query($query) or die(mysql_error());
-	$query="DELETE FROM `bugster`.`lists` WHERE `lists`.`ID` = ".$_GET["del"];
+	$query="DELETE FROM `lists` WHERE `lists`.`ID` = ".$_GET["del"];
 	mysql_query($query);
 }
 if(isset($_GET["restore"]))
 {
 	$id=$_GET["restore"];
 	$listName=$_GET["name"];
-	$query="INSERT INTO `bugster`.`lists` (`ID`, `Name`) VALUES ('$id', '$listName');";
+	$query="INSERT INTO `lists` (`ID`, `Name`) VALUES ('$id', '$listName');";
 	mysql_query($query) or die(mysql_error());
-	$query="DELETE FROM `bugster`.`old_lists` WHERE `old_lists`.`ID` = ".$_GET["restore"];
+	$query="DELETE FROM `old_lists` WHERE `old_lists`.`ID` = ".$_GET["restore"];
 	mysql_query($query);
 }
 ?>
