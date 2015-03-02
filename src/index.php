@@ -22,7 +22,7 @@ include "config.php";
 </head>
 	<body>
 
-	<form name="addForm" id="addForm" style="height=100px;">
+	<form name="addForm" id="addForm" style="height:100px;">
     	<div class="logo" >
 			<div>v0.2.3</div>
             <input type="button" onClick="saveName();" value="save" class="button" style="margin-top:70px; float:right">	
